@@ -1,0 +1,50 @@
+{
+  "name": "trondheimdc",
+  "author": "Kenneth Grotdal",
+  "version": "1.0.0",
+  "description": "Trondheim DC 2019 Webpage",
+  "contributors": [
+    {
+      "name": "Kenneth Grotdal",
+      "email": "kenneth@grotdal.net"
+    }
+  ],
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "aa": "*",
+    "body-parser": "*",
+    "connect-redis": "*",
+    "cookie-parser": "*",
+    "credential": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "file-stream-rotator": "*",
+    "fs-readfile-promise": "*",
+    "knex": "*",
+    "mkdir-recursive": "*",
+    "mkdirp": "*",
+    "morgan": "*",
+    "nodemon": "*",
+    "pg": "*",
+    "pg-promise": "*",
+    "redis": "*",
+    "rimraf": "*",
+    "uuid": "*",
+    "winston": "*"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "preferGlobal": false,
+  "publishConfig": {
+    "registry": ""
+  },
+  "subdomain": "www",
+  "analyze": false
+}
