@@ -11,8 +11,7 @@
   ],
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "debug": "nodemon server.js"
+    "start": "node server.js"
   },
   "license": "ISC",
   "dependencies": {

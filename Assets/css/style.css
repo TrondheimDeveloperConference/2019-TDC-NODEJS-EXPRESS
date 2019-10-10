@@ -175,3 +175,34 @@ nav .navbar-nav li a{
 .calendar-event {
   background-color: #807bb9;
 }
+
+/*
+ * Extra utilities
+ */
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  } 
+}
+
+.overflow-hidden { overflow: hidden; }
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
